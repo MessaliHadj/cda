@@ -4,11 +4,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 /* <!-- navbar --> */
 
 /* <!-- section1 --> */
 
 /* <!-- section2 --> */
+.academy{
+ 
+ text-align: center;
+}
+
+.academy h1{
+  font-size: 30px;
+  color:#e74c3d;
+  margin: 10px 0;
+  font-family: Poppins;
+}
+.academy a {
+  color:#e74c3d;
+  text-decoration: none;
+  opacity:0.8;
+  font-size: 21px;
+  font-family: Poppins;
+}
+.academy hr {
+
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  box-sizing: content-box;
+    height: 0;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #e74c3d;
+    width: 160px;
+    margin-top: 15px;
+}
+academy .p{
+  font-family: Poppins;
+  font-size:40px;
+}
 
 /* <!-- section3 --> */
 
