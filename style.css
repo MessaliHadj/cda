@@ -7,6 +7,77 @@
 /* <!-- navbar --> */
 
 /* <!-- section1 --> */
+.banner{
+  height: auto;
+  background-image: url(./hero-image.jpg);
+  background: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1{
+  color:white;
+  font-family: 'Poppins';
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  width: 44%;
+}
+.banner p{
+  color:rgb(223, 221, 221);
+  font-family: 'Ubuntu';
+  margin: 20px;
+  font-size: 22px;
+  text-align: center;
+  width: 61%;
+}
+.banner p strong{
+  color: #fafafafa;
+}
+.banner .btn{
+  padding: 15px 20px;
+  font-family: 'Poppins';
+  font-size: 22px;
+  background-color: #D9534F;
+  color: #fafafa;
+  border: none;
+  border-radius: 10px;
+}
+.banner a{
+  text-decoration: none;
+  color: #fafafa;
+}
+.banner .btn:hover{
+  background-color: transparent;
+}
+.banner img{
+  margin: 20px 0 40px 0;
+  width: 5%;
+}
+
+footer{
+  background-color: #F74C3C;
+  height: 150px;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-end;
+}
+.text_footer{
+  margin: 1% 7%;
+}
+footer .text_footer img{
+  width: 7%;
+}
+
+footer .text_footer p{
+  font-family: 'Ubuntu';
+  width: 20%;
+}
+
+footer p{
+  color:white;
+}
 
 /* <!-- section2 --> */
 
