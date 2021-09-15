@@ -11,7 +11,55 @@
 /* <!-- section2 --> */
 
 /* <!-- section3 --> */
+#section-3 .container{
+  width: 100%;
+  background-color:#f2f2f2;
+  padding: 20px 0;
+}
+#section-3 h2{
+  text-align: center;
+}
+#section-3 .row{
+  display: flex;
+  justify-content: center;
 
+}
+#section-3 .card{
+width: calc(60% / 3);
+text-align: center;
+padding:1rem;
+
+}
+#section-3 i{
+  font-size:3rem;
+
+}
+#section-3 h3{
+  margin:10px;
+}
+#section-3 .btn{
+  margin:10px;
+  font-size:0.7rem;
+  padding:0.3rem;
+  background-color: white;
+  border-radius:3px;
+  border: solid 1px lightgrey;
+}
+
+#section-3 .border{ 
+  border-bottom: 1px solid #e55039;
+  width:100px;
+  margin: 0.7rem auto;
+}
+#section-3 h2,
+#section-3 h3,
+#section-3 .btn {
+  color:#e55039;
+}
+#section-3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
 /* <!-- section4 --> */
 
 /* <!-- footer -->*/
