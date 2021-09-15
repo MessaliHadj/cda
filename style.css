@@ -13,5 +13,59 @@
 /* <!-- section3 --> */
 
 /* <!-- section4 --> */
+.section-criminelle{
+  background-color: rgb(240, 240, 240);
+  font-family:"poppins";
+  width: 100%;
+}
+.section-criminelle .far{
+  font-size: 3.5rem;
+  color: #373737;
+  padding: 1rem;
+}
+.section-criminelle .title-sec4{
+  text-align: center;
+  font-size: 1.5rem;
+  color:rgb(190, 76, 76);
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.section-criminelle .general-div{
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+}        
+.section-criminelle .general-div div{
+  width: 30%;
+  text-align: center;
+}
+.section-criminelle .general-div div h2{
+  color:rgb(190, 76, 76);
+}
+hr{
+  width: 7%;
+  margin:auto;
+  margin-top: 1rem;
+}
+.section-criminelle .general-div div p{
+  padding: 1rem;
+  font-family:"unbuntu";
+  font-weight: 600;
+}
+
+
+.btn-sec3{
+  text-decoration: none;
+  color: rgb(190, 76, 76);
+  border: 1px solid #aaa;
+  background: #fff;
+  padding: 0.35rem; 
+  border-radius: 0.2rem;
+}
+
 
 /* <!-- footer -->*/
